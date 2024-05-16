@@ -3,7 +3,7 @@ import logoImg from "../../../assets/image/qa.png";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between p-2">
+    <div className="flex items-center justify-between mt-3">
       <Link to="/">
         <div className="flex items-center">
           <img className="w-[35px]" src={logoImg} alt="Website Logo" />

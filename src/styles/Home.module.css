@@ -1,0 +1,15 @@
+.bouncingImage {
+  animation: bounceEffect 2s infinite ease-in-out;
+}
+
+@keyframes bounceEffect {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
